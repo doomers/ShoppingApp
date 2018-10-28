@@ -154,7 +154,6 @@ public class MainActivity extends AppCompatActivity implements
             setTitle("GALLERY");
         }
         if (id == R.id.nav_discussion) {
-
             setTitle("DISCUSSSION");
         }
         if (id == R.id.nav_slideshow) {
