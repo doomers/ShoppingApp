@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements
         }
         root = Environment.getExternalStorageDirectory();
         dir = new File(root + "/Appdata");
-        File file1 =new File(dir,"email.txt");
+        File file1 = new File(dir, "email.txt");
         try {
             String retreivemail;
             FileInputStream in1 = new FileInputStream(file1);
@@ -154,7 +154,6 @@ public class MainActivity extends AppCompatActivity implements
             setTitle("GALLERY");
         }
         if (id == R.id.nav_discussion) {
-
             setTitle("DISCUSSSION");
         }
         if (id == R.id.nav_slideshow) {
